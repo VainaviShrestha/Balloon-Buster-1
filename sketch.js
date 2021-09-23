@@ -78,7 +78,7 @@ function draw() {
  function createArrow() {
   var arrow= createSprite(100, 100, 60, 10);
   arrow.addImage(arrowImage);
-  arro5w.x = 360;
+  arrow.x = 360;
   arrow.y=bow.y;
   arrow.velocityX = -4;
   arrow.lifetime = 100;
